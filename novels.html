@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Novel Books</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+</head>
+<body>
+    <div id="container">
+        <div class="logo">
+            <figure>
+                <img src="/img/chrollo.jfif" alt="Novel Books">
+            </figure>
+            <p class="buttons">
+                <a href="index.htm"
+                   title="Back to Home Page" aria-label="Back to Home Page">Home Page</a>
+            </p>
+        </div>
+
+        <div class="sticky-header">
+            <nav class="sticky-nav">
+                <ul>
+                    <li><a href="philosophy.htm"><i class="fas fa-brain"></i> Philosophy</a></li>
+                    <li><a href="logic.html"><i class="fas fa-puzzle-piece"></i> Logic</a></li>
+                    <li><a href="science.html"><i class="fas fa-atom"></i> Science</a></li>
+                    <li><a href="novels.html"><i class="fas fa-book"></i> Novels</a></li>
+                </ul>
+            </nav>
+            
+        </div>
+        <div class="search-container">
+            <input type="text" id="bookSearch" placeholder="Search for books..." class="search-input">
+            <button type="submit" class="search-button">
+                <i class="fas fa-search"></i>
+            </button>
+        </div>
+        <h1>download novels</h1>
+
+        <div class="book-container">
+            <button class="scroll-btn left" id="scrollLeft">❮</button>
+            <div class="book-list-wrapper">
+                <div class="book-list">
+                    <div class="book-item">
+                        <img src="book-covers/causality models.webp" alt="Causality Models Book Cover">
+                        <a class="botona" href="philo/Causality Models, Reasoning and Inference by inphilo.pdf" download>
+                            Causality Models, Reasoning and Inference (PDF)
+                        </a>
+                    </div>
+                    <div class="book-item">
+                        <img src="book-covers/knowledge_and_its_limits.jpg" alt="Knowledge and Its Limits Book Cover">
+                        <a class="botona" href="philo/Knowledge and Its Limits (Timothy Williamson) by inphilo.pdf" download>
+                            Knowledge and Its Limits (Timothy Williamson)(PDF)
+                        </a>
+                    </div>
+                    <div class="book-item">
+                        <img src="book-covers/philosophy_of_philosophy.jpg" alt="The Philosophy of Philosophy Book Cover">
+                        <a class="botona" href="philo/The Philosophy of Philosophy (Timothy Williamson) by inphilo.pdf" download>
+                            The Philosophy of Philosophy (Timothy Williamson)(PDF)
+                        </a>
+                    </div>
+                    <div class="book-item">
+                        <img src="book-covers/mind_and_world.jpg" alt="Mind and World Book Cover">
+                        <a class="botona" href="philo/Mind and World (John McDowell) by inphilo.pdf" download>
+                            Mind and World (John McDowell)(PDF)
+                        </a>
+                    </div>
+                    <div class="book-item">
+                        <img src="book-covers/naming_and_necessity.jpg" alt="Naming and Necessity Book Cover">
+                        <a class="botona" href="philo/Naming and Necessity (Saul Kripke) by inphilo.pdf" download>
+                            Naming and Necessity (Saul Kripke)(PDF)
+                        </a>
+                    </div>
+                    <div class="book-item">
+                        <img src="book-covers/on_certainty.jpg" alt="On Certainty Book Cover">
+                        <a class="botona" href="philo/On Certainty (Ludwig Wittgenstein) by inphilo.pdf" download>
+                            On Certainty (Ludwig Wittgenstein)(PDF)
+                        </a>
+                    </div>
+                    <div class="book-item">
+                        <img src="book-covers/word_and_object.jpg" alt="Word and Object Book Cover">
+                        <a class="botona" href="philo/Word and Object (W.V.O. Quine) by inphilo.pdf" download>
+                            Word and Object (W.V.O. Quine)(PDF)
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <button class="scroll-btn right" id="scrollRight">❯</button>
+        </div>
+        <div class="scroll-indicators">
+            <div class="scroll-dot active"></div>
+            <div class="scroll-dot"></div>
+            <div class="scroll-dot"></div>
+            <div class="scroll-dot"></div>
+            <div class="scroll-dot"></div>
+        </div>
+
+        <div class="intro-paragraph">
+            <p>Discover our curated collection of novels that will transport you to new worlds and perspectives. From timeless classics to contemporary masterpieces, explore stories that will captivate your imagination.</p>
+            <p>Get started with our <a href="#" class="free-download">free downloadable reading list</a>.</p>
+        </div>
+
+        <div class="quote-container">
+            <blockquote>
+                "Fiction reveals truth that reality obscures."
+                <cite>- Ralph Waldo Emerson</cite>
+            </blockquote>
+        </div>
+
+       
+    </div>
+    <button id="scrollToTop" title="Go to top">↑</button>
+    <script src="novels.js"></script>
+</body>
+</html>
